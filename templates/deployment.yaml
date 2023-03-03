@@ -4,6 +4,9 @@ metadata:
   name: {{ include "knetkit.fullname" . }}
   labels:
     {{- include "knetkit.labels" . | nindent 4 }}
+  {{- if .Values.namespace.name }}
+  namespace: {{ .Values.namespace.name }}
+  {{- end }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
