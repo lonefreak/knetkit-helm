@@ -3,12 +3,22 @@ entries:
   knetkit:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-03-03T15:09:37.964329+01:00"
-    description: A helm chart that deploys KnetKit to a Kubernetes cluster
+    created: "2023-03-03T16:14:41.759552+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 03e3e44b0e8b26e0156d2508841a14634a978143b30736c4f8af76e943437e80
+    name: knetkit
+    type: application
+    urls:
+    - charts/knetkit-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-03-03T16:14:41.758999+01:00"
+    description: A Helm chart for Kubernetes
     digest: 6628f4228577191a68132fdab8b1ccf9ece982da9a2d469b99eca95e206ceb30
     name: knetkit
     type: application
     urls:
-    - knetkit-0.1.0.tgz
+    - charts/knetkit-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-03T15:09:37.963705+01:00"
+generated: "2023-03-03T16:14:41.758209+01:00"
