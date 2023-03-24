@@ -34,6 +34,10 @@ resources:
     cpu: 100m
     memory: 128Mi
 
+dnsPolicy: clusterFirst
+
+restartPolicy: Always
+
 nodeSelector: {}
 
 tolerations: []
